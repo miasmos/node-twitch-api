@@ -1,5 +1,5 @@
 {
-  "name": "node-twitchtv-stephenpoole",
+  "name": "node-twitch-api",
   "version": "0.1.1",
   "description": "TwitchTV client for Node applications",
   "keywords": [
@@ -21,5 +21,5 @@
   "dependencies": {
     "request": ">= 2.9.0"
   },
-  "main": "./node-twitchtv.js"
+  "main": "./node-twitch-api.js"
 }
