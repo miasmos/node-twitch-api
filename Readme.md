@@ -1,22 +1,22 @@
 
-# node-twitchtv
+# node-twitch-api
 
-  TwitchTV client for NodeJS applications. 100% endpoint coverage.
+  Twitch client for NodeJS applications. 100% endpoint coverage.
   
-  [![NPM version](https://badge.fury.io/js/node-twitchtv-stephenpoole.png)](http://badge.fury.io/js/node-twitchtv-stephenpoole)
+  [![NPM version](https://badge.fury.io/js/node-twitchtv-stephenpoole.png)](http://badge.fury.io/js/node-twitch-api)
   
 ## Getting started
 
 Install  
 
 ```
-npm install node-twitchtv-stephenpoole
+npm install node-twitch-api
 ```
 
 Then integrate!
 
 ```javascript
-var TwitchClient = require("node-twitchtv-stephenpoole");
+var TwitchClient = require("node-twitch-api");
 var client = new TwitchClient({
 	"scope": "user_read channel_read"
 })
