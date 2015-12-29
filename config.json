@@ -1,0 +1,56 @@
+{
+	"config": {
+		"url": "https://api.twitch.tv/kraken"
+	},
+	"endpoints": {
+		"get": [
+			"/",
+			"/channel",
+			"/channels/channel",
+			"/channels/:channel/videos",
+			"/channels/:channel/follows",
+			"/channels/:channel/editors",
+			"/channels/:channel/teams",
+			"/channels/:channel/subscriptions",
+			"/channels/:channel/subscriptions/:user",
+			"/chat/:channel",
+			"/chat/:channel/badges",
+			"/chat/emoticons",
+			"/chat/emoticon_images",
+			"/ingests",
+			"/games/top",
+			"/search/channels",
+			"/search/streams",
+			"/search/games",
+			"/streams/:channel",
+			"/streams",
+			"/streams/featured",
+			"/streams/summary",
+			"/streams/followed",
+			"/teams",
+			"/teams/:team",
+			"/user",
+			"/users/:user",
+			"/users/:user/blocks",
+			"/users/:user/subscriptions/:channel",
+			"/users/:user/follows/channels",
+			"/users/:user/follows/channels/:target",
+			"/videos/followed",
+			"/videos/:id",
+			"/videos/top"
+		],
+		"put": [
+			"/channels/:channel",
+			"/users/:user/blocks/:target",
+			"/users/:user/follows/channels/:target"
+		],
+		"post": [
+			"/channels/:channel/commercial"
+		],
+		"delete": [
+			"/channels/:channel/stream_key",
+			"/users/:user/blocks/:target",
+			"/users/:user/follows/channels/:target"
+		]
+	}
+}

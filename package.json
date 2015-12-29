@@ -1,0 +1,25 @@
+{
+  "name": "node-twitchtv-stephenpoole",
+  "version": "0.1.1",
+  "description": "TwitchTV client for Node applications",
+  "keywords": [
+    "twitchtv",
+    "sdk",
+    "twitch",
+    "api"
+  ],
+  "author": "Stephen Poole <stephenwpoole@gmail.com>",
+  "contributors": [
+    {
+      "name": "Stephen Poole",
+      "email": "stephenwpoole@gmail.com"
+    }
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -t 10000 test/integration test/unit"
+  },
+  "dependencies": {
+    "request": ">= 2.9.0"
+  },
+  "main": "./node-twitchtv.js"
+}
