@@ -1,6 +1,6 @@
 {
   "name": "node-twitch-api",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "TwitchTV client for Node applications",
   "keywords": [
     "twitchtv",
@@ -16,7 +16,11 @@
     }
   ],
   "scripts": {
-    "test": "./node_modules/.bin/mocha -t 10000 test/integration test/unit"
+    "test": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephenpoole/node-twitch-api.git"
   },
   "dependencies": {
     "request": ">= 2.9.0"

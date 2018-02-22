@@ -79,7 +79,6 @@ class TwitchClient {
 
   _request(type, urlSuffix, callback) {
     if (!callback || typeof callback != 'function') return false;
-    console.log(`calling ${config.config.url}${urlSuffix}`)
     if (this.client_id) urlSuffix += 'client_id='+this.client_id+'&'
     if (this.scope) urlSuffix += 'scope='+this.scope+'&'
     var opts = {
