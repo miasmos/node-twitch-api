@@ -1,4 +1,4 @@
-var twitch = require('./node-twitchtv.js')
+var twitch = require('./node-twitch-api.js')
 var t = new twitch({
 	"client_id": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
 	"scope": "user_read channel_read channel_commercial"
